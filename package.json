@@ -16,9 +16,9 @@
     "react-scripts": "2.1.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
     "eject": "react-scripts eject",
     "flow": "$(npm bin)/flow",
     "postinstall": "$(npm bin)/flow-typed install"
@@ -49,6 +49,8 @@
     "jest-cli": "20.0.4",
     "lint-staged": "^8.1.0",
     "prettier": "^1.15.2",
-    "pretty-quick": "^1.8.0"
+    "pretty-quick": "^1.8.0",
+    "react-app-rewire-aliases": "^0.2.0",
+    "react-app-rewired": "^1.6.2"
   }
 }
