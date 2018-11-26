@@ -2,6 +2,14 @@
   "name": "smolltalk-website",
   "version": "0.1.0",
   "private": true,
+  "precommit": "NODE_ENV=production lint-staged",
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "pretty-quick --staged",
+      "eslint src/ --fix",
+      "git add"
+    ]
+  },
   "dependencies": {
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
@@ -11,7 +19,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "flow": "$(npm bin)/flow",
+    "postinstall": "$(npm bin)/flow-typed install"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -21,5 +31,24 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-flowtype": "^3.2.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^22.0.1",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-unicorn": "^6.0.1",
+    "flow-bin": "^0.86.0",
+    "flow-typed": "^2.5.1",
+    "husky": "^1.2.0",
+    "jest": "23.6.0",
+    "jest-cli": "20.0.4",
+    "lint-staged": "^8.1.0",
+    "prettier": "^1.15.2",
+    "pretty-quick": "^1.8.0"
+  }
 }
