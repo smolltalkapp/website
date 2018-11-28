@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable jsx-a11y/anchor-has-content */
 // @flow
 import React from 'react';
 import NavigationBar from 'root/components/navigation/NavigationBar';
@@ -25,11 +27,40 @@ export default class PrivacyPage extends React.PureComponent<Props> {
           <p>
             <i>This Privacy Policy is last updated as of November 27th, 2018</i>
           </p>
-          <h3>1. WHERE THIS PRIVACY POLICY APPLIES </h3>
+          <section>
+            <p>
+              • <a href="#1">1. WHERE THIS PRIVACY POLICY APPLIES</a>
+            </p>
+            <p>
+              • <a href="#2">2. INFORMATION WE COLLECT</a>
+            </p>
+            <p>
+              • <a href="#3">3. HOW WE USE INFORMATION</a>
+            </p>
+            <p>
+              • <a href="#4">4. HOW WE SHARE INFORMATION</a>
+            </p>
+            <p>
+              • <a href="#5">5. YOUR RIGHTS</a>
+            </p>
+            <p>
+              • <a href="#6">6. PRIVACY POLICY CHANGES</a>
+            </p>
+            <p>
+              • <a href="#7">7. HOW LONG WE RETAIN YOUR INFORMATION</a>
+            </p>
+            <p>
+              • <a href="#8">8. PRIVACY POLICY CHANGES</a>
+            </p>
+            <p>
+              • <a href="#9">9. PRIVACY POLICY CHANGES</a>
+            </p>
+          </section>
+          <h3 id="1">1. WHERE THIS PRIVACY POLICY APPLIES</h3>
           <p>
             This Privacy Policy applies to the SmollTalk App for both IOS and Android.
           </p>
-          <h3>2. INFORMATION WE COLLECT</h3>
+          <h3 id="2">2. INFORMATION WE COLLECT</h3>
           <p>
             It goes without saying, we can’t help you develop meaningful connections
             without some information about you. We also collect information generated as
@@ -142,7 +173,7 @@ export default class PrivacyPage extends React.PureComponent<Props> {
               geolocation, we will not collect it.
             </p>
           </p>
-          <h3>3. HOW WE USE INFORMATION</h3>
+          <h3 id="3">3. HOW WE USE INFORMATION</h3>
           <p>
             The main reason we use your information is to deliver and improve our
             services. Additionally, we use your info to help keep you safe and to provide
@@ -226,7 +257,7 @@ export default class PrivacyPage extends React.PureComponent<Props> {
             any time by contacting us at the address provided at the end of this Privacy
             Policy.
           </p>
-          <h3>4. HOW WE SHARE INFORMATION</h3>
+          <h3 id="4">4. HOW WE SHARE INFORMATION</h3>
           <p>
             Since our goal is to help you make meaningful connections, the main sharing
             of users’ information is, of course, with other users.
@@ -305,7 +336,7 @@ export default class PrivacyPage extends React.PureComponent<Props> {
               other sources.
             </p>
           </p>
-          <h3>5. YOUR RIGHTS</h3>
+          <h3 id="5">5. YOUR RIGHTS</h3>
           <p>
             We want you to be in control of your information, so we have provided you
             with the following tools:
@@ -361,10 +392,10 @@ export default class PrivacyPage extends React.PureComponent<Props> {
             provide our service if we do not have your year of birth and gender.
           </p>
           <p>
-            •<b>Uninstall.</b> You can stop all information collection by an app by
+            • <b>Uninstall.</b> You can stop all information collection by an app by
             uninstalling it using the standard uninstall process for your device.
           </p>
-          <h3>6. HOW WE PROTECT YOUR INFORMATION</h3>
+          <h3 id="6">6. HOW WE PROTECT YOUR INFORMATION</h3>
           <p>
             We work hard to protect you from unauthorised access to or alteration,
             disclosure or destruction of your personal information. As with all
@@ -383,7 +414,7 @@ export default class PrivacyPage extends React.PureComponent<Props> {
             information is no longer secure, please notify us immediately by emailing us
             at support@smolltalk.com.
           </p>
-          <h3>7. HOW LONG WE RETAIN YOUR INFORMATION</h3>
+          <h3 id="7">7. HOW LONG WE RETAIN YOUR INFORMATION</h3>
           <p>
             When you choose to delete your account, we immediately delete your
             information from our systems (profile, friends, interests, etc), unless:
@@ -414,14 +445,14 @@ export default class PrivacyPage extends React.PureComponent<Props> {
             all data will be deleted within a specific timeframe due to technical
             constraints.
           </p>
-          <h3>8. PRIVACY POLICY CHANGES</h3>
+          <h3 id="8">8. PRIVACY POLICY CHANGES</h3>
           <p>
             Because we’re always looking for new and innovative ways to help you build
             meaningful connections, this policy may change over time. We will notify you
             before any material changes take effect so that you have time to review the
             changes.
           </p>
-          <h3>9. HOW TO CONTACT US</h3>
+          <h3 id="9">9. HOW TO CONTACT US</h3>
           <p>
             If you have questions about this Privacy Policy, you can email us at
             support@smolltalk.com

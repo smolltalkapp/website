@@ -24,7 +24,8 @@
     "test": "react-app-rewired test",
     "eject": "react-scripts eject",
     "flow": "$(npm bin)/flow",
-    "postinstall": "$(npm bin)/flow-typed install"
+    "postinstall": "$(npm bin)/flow-typed install",
+    "deploy": "yarn run build && firebase deploy"
   },
   "eslintConfig": {
     "extends": "react-app"
