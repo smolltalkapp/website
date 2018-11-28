@@ -35,7 +35,7 @@ export default class NavigationBar extends React.PureComponent<Props, State> {
     }
   };
 
-  renderNavLink = (className: string, path: string, label: string) => (
+  renderNavLink = (path: string, label: string) => (
     <NavLink to={`/${path}`} className="navLink" activeClassName="activeNavLink">
       {label}
     </NavLink>
@@ -55,7 +55,8 @@ export default class NavigationBar extends React.PureComponent<Props, State> {
           <img src={logo} alt="Logo" className="navLogoName" />
         </a>
         <div className="navLinkContainer">
-          {this.renderNavLink('nav2', 'privacy', 'Privacy Policy')}
+          {this.renderNavLink('terms', 'Terms and Conditions')}
+          {this.renderNavLink('privacy', 'Privacy Policy')}
         </div>
         {isNavFixed ? (
           <a href="#top" className="toTopButton">
