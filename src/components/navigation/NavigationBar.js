@@ -57,6 +57,8 @@ export default class NavigationBar extends React.PureComponent<Props, State> {
         <div className="navLinkContainer">
           {this.renderNavLink('terms', 'Terms and Conditions')}
           {this.renderNavLink('privacy', 'Privacy Policy')}
+          {this.renderNavLink('safety', 'Safety')}
+          {this.renderNavLink('community', 'Community Guidelines')}
         </div>
         {isNavFixed ? (
           <a href="#top" className="toTopButton">

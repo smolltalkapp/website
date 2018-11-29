@@ -1,0 +1,26 @@
+.container {
+  text-align: center;
+}
+
+.communityContainer {
+  margin: auto;
+  max-width: 960px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  text-align: justify;
+}
+
+h4 {
+  text-align: left;
+}
+
+p {
+  text-align: justify;
+}
+
+section {
+  margin-left: 20px;
+}
