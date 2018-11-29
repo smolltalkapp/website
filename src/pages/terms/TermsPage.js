@@ -599,10 +599,7 @@ export default class TermsPage extends React.PureComponent<Props> {
           <p>
             You hereby agree that the Company is entitled to terminate this Agreement
             immediately in the event that you are found to be in breach of any of the
-            terms stipulated in this Agreement. For the avoidance of doubt, the
-            termination of this Agreement shall not require the Company to compensate,
-            reimburse or cover any cost incurred by you in the course of you acquiring
-            services from the third party transportation provider under this Agreement.
+            terms stipulated in this Agreement.
           </p>
         </div>
       </div>
