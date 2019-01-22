@@ -58,45 +58,6 @@ jQuery(document).ready(() => {
     tickerHover: true,
     preloadImages: 'all',
   });
-  jQuery(jQuery => {
-    jQuery('body').on('click', '#subscribe', function() {
-      jQuery.ajax({
-        type: 'POST',
-        success(data) {
-          const error = jQuery('.notification.error');
-          const success = jQuery('.notification.success');
-          if (data == 1) {
-            success.css('opacity', 0);
-            success.slideDown(300);
-            success.animate(
-              {
-                opacity: 1,
-              },
-              300,
-            );
-            error.hide();
-          } else {
-            error.css('opacity', 0);
-            error.slideDown(300);
-            error.animate(
-              {
-                opacity: 1,
-              },
-              300,
-            );
-            success.hide();
-          }
-        },
-        url: 'form.php',
-        cache: false,
-        data: jQuery(this)
-          .parents('form')
-          .serialize(),
-      });
-      return false;
-    });
-  });
-  jQuery(document.body).aetherNotifications();
   jQuery('#top').click(
     () => (
       jQuery('body,html')

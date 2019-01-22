@@ -27,7 +27,7 @@
     "flow": "$(npm bin)/flow",
     "postinstall": "$(npm bin)/flow-typed install",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d deploy"
+    "deploy": "npm run gh-pages -d deploy"
   },
   "eslintConfig": {
     "extends": "react-app"
