@@ -14,7 +14,7 @@ const AboutPage = () => (
     <br />
     <br />
     <p>If you haven't and are curious about it, why not join in on the fun!</p>
-    <h2>Who we?</h2>
+    <h2>Who are we?</h2>
     <p>
       Well, we are a small team (very smoll), making a smoll app, called SmollTalk, that
       hopes to change the world...in a big way.
@@ -27,7 +27,7 @@ const AboutPage = () => (
       But in order to achieve this, we needed to ask ourselves a very important question
       - What IS the foundation for great friendships?
     </p>
-    <h2>Interests.</h2>
+    <h2>Interests</h2>
     <p>
       Interests are quite simply, the reason we feel connected with someone when we get
       to share, talk, and even laugh at the same things in life.
@@ -44,7 +44,7 @@ const AboutPage = () => (
       With that done, we believed the next element is also essential in building
       meaningful relationships.
     </p>
-    <h2>Conversations.</h2>
+    <h2>Conversations</h2>
     <p>
       Conversations, dialog, idea exchanges, whatever you call it, it energizes us. For
       users who are connecting with each other, we believe exclusivity is important.
