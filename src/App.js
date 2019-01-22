@@ -22,15 +22,15 @@ class App extends Component<Props> {
       <BrowserRouter>
         <div>
           <Switch>
-            <Route path="/" component={HomePage} exact />
-            <Route path="/privacy" component={PrivacyPage} exact />
-            <Route path="/terms" component={TermsPage} exact />
-            <Route path="/safety" component={SafetyPage} exact />
-            <Route path="/community" component={CommunityPage} exact />
-            <Route path="/about" component={AboutPage} exact />
-            <Route path="/ref" component={ReferralPage} exact />
-            <Route path="/room" component={RoomPage} exact />
-            <Route path="/contact" component={ContactUsPage} exact />
+            <Route exact path="/" component={HomePage} />
+            <Route path="/privacy" component={PrivacyPage} />
+            <Route path="/terms" component={TermsPage} />
+            <Route path="/safety" component={SafetyPage} />
+            <Route path="/community" component={CommunityPage} />
+            <Route path="/about" component={AboutPage} />
+            <Route path="/ref" component={ReferralPage} />
+            <Route path="/room" component={RoomPage} />
+            <Route path="/contact" component={ContactUsPage} />
             <Route component={ErrorPage} />
           </Switch>
         </div>

@@ -33,9 +33,40 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
     <meta name="theme-color" content="#ffffff" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <!-- Start Single Page Apps for GitHub Pages -->
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // https://github.com/rafrex/spa-github-pages
+      // Copyright (c) 2016 Rafael Pedicini, licensed under the MIT License
+      // ----------------------------------------------------------------------
+      // This script checks to see if a redirect is present in the query string
+      // and converts it back into the correct url and adds it to the
+      // browser's history using window.history.replaceState(...),
+      // which won't cause the browser to attempt to load the new url.
+      // When the single page app is loaded further down in this file,
+      // the correct url will be waiting in the browser's history for
+      // the single page app to route accordingly.
+      (function(l) {
+        if (l.search) {
+          var q = {};
+          l.search.slice(1).split('&').forEach(function(v) {
+            var a = v.split('=');
+            q[a[0]] = a.slice(1).join('=').replace(/~and~/g, '&');
+          });
+          if (q.p !== undefined) {
+            window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + (q.p || '') +
+              (q.q ? ('?' + q.q) : '') +
+              l.hash
+            );
+          }
+        }
+      }(window.location))
+    </script>
+    <!-- End Single Page Apps for GitHub Pages -->    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <link
-      href="http://fonts.googleapis.com/css?family=Roboto:400,300,100"
+      href="https://fonts.googleapis.com/css?family=Roboto:400,300,100"
       rel="stylesheet"
       type="text/css"
     />
@@ -50,7 +81,7 @@
       <div id="mobile-nav">
         <div class="container clearfix">
           <div id="mobileNavHeader" class="sixteen columns clearfix">
-            <a href="/"> <img id="mobileLogo" src="/images/logo-black.png" alt="" /> </a>
+            <a href="/"> <img id="mobileLogo" src="images/logo-black.png" alt="" /> </a>
             <img
               id="navMore"
               class="navigationButton"
@@ -71,12 +102,12 @@
                 </a>
               </li>
               <li>
-                <a href="/about">
+                <a href="about">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="/contact">
+                <a href="contact">
                   Contact Us
                 </a>
               </li>                            
@@ -87,7 +118,7 @@
       <header class="clearfix" id="headerNav">
         <div class="container">
           <div id="logo" class="four columns">
-            <a href="/"> <img src="/images/logo.png" alt="" />
+            <a href="/"> <img src="images/logo.png" alt="" />
           </div>
 
           <nav class="twelve columns">
@@ -103,12 +134,12 @@
                 </a>
               </li>
               <li>
-                <a href="/about">
+                <a href="about">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="/contact">
+                <a href="contact">
                   Contact Us
                 </a>
               </li>                                          
@@ -122,10 +153,10 @@
     <footer>
       <div class="container">
         <ul class="footer-action">
-          <li><a class="button small" href="/terms">Terms and Conditions</a></li>
-          <li><a class="button small" href="/privacy">Privacy<i class="top"></i></a></li>
-          <li><a class="button small" href="/safety">Safety<i class="top"></i></a></li>
-          <li><a class="button small" href="/community">Community Guidelines<i class="top"></i></a></li>
+          <li><a class="button small" href="terms">Terms and Conditions</a></li>
+          <li><a class="button small" href="privacy">Privacy<i class="top"></i></a></li>
+          <li><a class="button small" href="safety">Safety<i class="top"></i></a></li>
+          <li><a class="button small" href="community">Community Guidelines<i class="top"></i></a></li>
         </ul>
         <p class="copyright">© 2018 The SmollTeam. All Rights Reserved. </p>
       </div>
