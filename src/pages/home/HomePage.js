@@ -1,13 +1,19 @@
 // @flow
 import React from 'react';
-import Jumbotron from './Jumbotron';
+import HeroSection from './HeroSection';
+import OverviewSection from './OverviewSection';
+import GallerySection from './GallerySection';
+import DownloadSection from './DownloadSection';
 
 type Props = {};
 class HomePage extends React.PureComponent<Props> {
   render() {
     return (
       <div>
-        <Jumbotron />
+        <HeroSection />
+        <OverviewSection />
+        <GallerySection />
+        <DownloadSection />
       </div>
     );
   }

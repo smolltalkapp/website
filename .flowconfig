@@ -2,6 +2,7 @@
 .*/node_modules/.*
 .*/build/.*
 <PROJECT_ROOT>/config-overrides.js
+.*/public/scripts/.*
 
 [include]
 
