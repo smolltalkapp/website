@@ -31,7 +31,7 @@ const OverviewSection = () => (
       <img src="images/icons/share.png" alt="" />
       <h3>Share</h3>
       <p>
-        Having an interestnig conversation with someone? Invite your friends to eavesdrop
+        Having an interesting conversation with someone? Invite your friends to eavesdrop
         on your conversation.
       </p>
     </div>
