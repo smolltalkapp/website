@@ -27,7 +27,7 @@ export default class PrivacyPage extends React.PureComponent<Props> {
         <h2>SmollTalk IS NOT FOR:</h2>
         <h3>Nudity/Sexual Content</h3>
         <p>
-          Please keey it clean when sharing images or uploading profile pictures. No
+          Please keep it clean when sharing images or uploading profile pictures. No
           nudity, no sexually explicit content, and don’t chronicle all of your sexual
           desires in your bio. Keep it clean.
         </p>
