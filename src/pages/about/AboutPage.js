@@ -5,7 +5,7 @@ const AboutPage = () => (
   <div className="contentBody aboutpage mobileBody">
     <h1>HI!</h1>
     <p>
-      Firstly, if you are using SmollTalk, we wanna thank you from the bottom of out
+      Firstly, if you are using SmollTalk, we wanna thank you from the bottom of our
       hearts for supporting SmollTalk!
     </p>
     <span role="img" aria-label="clap">
@@ -37,8 +37,8 @@ const AboutPage = () => (
       with each other on SmollTalk. We realized asking you "What's your interests?" is a
       little bit tricky to answer, so intead we provide a platform that aggregates the
       worlds interests, at your fingertips. Easily add interests and start matching with
-      others that share the same interests, connecting and making friends with people
-      never been easier.
+      others that share the same interests. Connecting and making friends with people
+      could never been simpler.
     </p>
     <p>
       With that done, we believed the next element is also essential in building
@@ -48,7 +48,7 @@ const AboutPage = () => (
     <p>
       Conversations, dialog, idea exchanges, whatever you call it, it energizes us. For
       users who are connecting with each other, we believe exclusivity is important.
-      Matching with someone should feel like both of you are engaged in real life smoll
+      Matching with someone should feel like both of you are engaged in real life small
       talk. It can be a quick 5 minute conversation about each other's day, or a day long
       conversation about the universe. Whatever the scenario, you should feel like
       whoever you are talking to is present with you.
@@ -66,8 +66,8 @@ const AboutPage = () => (
     </p>
     <h2>Finally</h2>
     <p>
-      We still have a lot of work to do for SmollTalk. We are always curious with the
-      ways users use our app, and to hear the interesting stories that come from it!
+      We still have a lot of work to do for SmollTalk. We are always curious of the ways
+      users use our app, and to hear the interesting stories that come from it!
     </p>
     <p>
       Most importantly, we hope that your time with SmollTalk will be fruitful and

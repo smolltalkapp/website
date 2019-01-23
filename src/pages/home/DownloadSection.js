@@ -6,8 +6,8 @@ const DownloadSection = () => (
     <h2>Download the App now!</h2>
     <p className="sub-heading twelve columns offset-by-four">
       We can't wait to welcome you to the SmollTalk community! We hope your time with us
-      is going to be a fun, interesting and engaging experience. Most importantly, we
-      hope you can leave with a friend or two :)
+      is going to be a fun, interesting and engaging. Most importantly, we hope you can
+      leave with a friend or two :)
     </p>
     <ul className="download-list clearfix">
       <li>
