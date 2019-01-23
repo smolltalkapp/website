@@ -38,7 +38,7 @@ const AboutPage = () => (
       little bit tricky to answer, so intead we provide a platform that aggregates the
       worlds interests, at your fingertips. Easily add interests and start matching with
       others that share the same interests. Connecting and making friends with people
-      could never been simpler.
+      could never be simpler.
     </p>
     <p>
       With that done, we believed the next element is also essential in building
