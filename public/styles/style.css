@@ -147,6 +147,7 @@ h6 {
 
 .sub-heading {
   margin-bottom: 40px;
+  text-align: center;
 }
 
 /* =Anchors
@@ -353,6 +354,7 @@ nav ul li a.current {
   padding-bottom: 40px;
   border-bottom: 1px solid #ececec;
 }
+
 .content-box img {
   margin-bottom: 20px;
 }
@@ -363,16 +365,22 @@ nav ul li a.current {
 .static {
   position: relative;
   overflow: hidden;
-  padding-top: 140px;
+  padding-top: 80px;
   height: 455px;
   border-bottom: 1px solid #ececec;
 }
 
-.sidephone-big,
-.sidephone-small {
+.leftpreview {
   position: absolute;
-  bottom: 0;
-  left: 185px;
+  bottom: 50px;
+  max-width: 400px;
+}
+
+.rightpreview {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  max-width: 450px;
 }
 
 .static-list li {
@@ -383,19 +391,6 @@ nav ul li a.current {
 .static-list li:last-of-type {
   margin-right: 0px;
 }
-
-.static-phone {
-  position: absolute;
-  bottom: -293px;
-  right: 230px;
-}
-
-.static-tablet {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
-
 /* =Detail
 -------------------------------------------------------------- */
 
@@ -716,21 +711,11 @@ footer p {
     padding-top: 70px;
     height: 400px;
   }
-  .sidephone-small {
-    width: 200px;
-    left: 12px;
+  .leftpreview {
+    max-width: 300px;
   }
-  .sidephone-big {
-    width: 200px;
-    left: 130px;
-  }
-  .static-phone {
-    width: 150px;
-    bottom: 0px;
-    right: 200px;
-  }
-  .static-tablet {
-    width: 300px;
+  .rightpreview {
+    width: 380px;
   }
   .detail {
     min-height: 542px;
@@ -792,11 +777,11 @@ footer p {
     min-height: 730px;
     padding-top: 40px;
   }
-  .sidephone-small {
+  .leftpreview {
     left: 12px;
   }
-  .static-phone {
-    bottom: 0px;
+  .rightpreview {
+    left: -5px;
   }
   .detail {
     min-height: 480px;
@@ -827,21 +812,13 @@ footer p {
     min-height: 660px;
     padding-top: 40px;
   }
-  .sidephone-small {
-    width: 170px;
-    left: 12px;
+  .leftpreview {
+    max-width: 300px;
+    left: 0;
   }
-  .sidephone-big {
-    width: 170px;
-    left: 130px;
-  }
-  .static-phone {
-    width: 130px;
-    bottom: 0px;
-    right: 150px;
-  }
-  .static-tablet {
-    width: 260px;
+  .rightpreview {
+    width: 300px;
+    bottom: 70px;
   }
   .detail {
     min-height: 496px;

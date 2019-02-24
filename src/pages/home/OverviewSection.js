@@ -4,13 +4,13 @@ import './homeStyle.css';
 
 const OverviewSection = () => (
   <section id="section2" className="overview container">
-    <h2 className="sixteen columns">A simpler way to connect.</h2>
+    <h2 className="sixteen columns">1 Click, 1 Friend</h2>
     <p className="sub-heading twelve columns offset-by-four">
-      Match and connect with people around the world that share the same interests as
-      you, have great conversations and share them with friends.
+      Well realistically, NOT every person can be a friend, but that doesn't mean you
+      should stop looking! Add your interests, and we'll connect you with someone that
+      shares the same interests as you, all with One Click!
     </p>
     <br className="clear" />
-
     <div className="content-box one-third column">
       <img src="images/icons/search.png" alt="" />
       <h3>Match</h3>
@@ -24,15 +24,14 @@ const OverviewSection = () => (
       <h3>Chat</h3>
       <p>
         Once matched, you will begin chatting. We'll let you know what #interests you
-        matched on, and all chats are anonymous.
+        matched on.
       </p>
     </div>
     <div className="content-box one-third column">
-      <img src="images/icons/share.png" alt="" />
-      <h3>Share</h3>
+      <img src="images/icons/friend.png" alt="" />
+      <h3>Add Friends</h3>
       <p>
-        Having an interesting conversation with someone? Invite your friends to eavesdrop
-        on your conversation.
+        Having an interesting conversation with someone? Why not add them as a friend!
       </p>
     </div>
   </section>

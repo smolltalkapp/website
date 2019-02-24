@@ -2,6 +2,10 @@
 import React from 'react';
 import HeroSection from './HeroSection';
 import OverviewSection from './OverviewSection';
+import HowItWorksSection from './HowItWorksSection';
+import AddFriendSection from './AddFriendSection';
+import ManageInterestSection from './ManageInterestSection';
+import EavesdropSection from './EavesdropSection';
 import GallerySection from './GallerySection';
 import DownloadSection from './DownloadSection';
 
@@ -12,6 +16,10 @@ class HomePage extends React.PureComponent<Props> {
       <div>
         <HeroSection />
         <OverviewSection />
+        <HowItWorksSection />
+        <AddFriendSection />
+        <ManageInterestSection />
+        <EavesdropSection />
         <GallerySection />
         <DownloadSection />
       </div>
