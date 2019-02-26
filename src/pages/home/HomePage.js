@@ -1,5 +1,6 @@
 // @flow
 import React from 'react';
+import VideoIntroSection from './VideoIntroSection';
 import HeroSection from './HeroSection';
 import OverviewSection from './OverviewSection';
 import HowItWorksSection from './HowItWorksSection';
@@ -15,6 +16,7 @@ class HomePage extends React.PureComponent<Props> {
     return (
       <div>
         <HeroSection />
+        <VideoIntroSection />
         <OverviewSection />
         <HowItWorksSection />
         <AddFriendSection />
