@@ -3,7 +3,7 @@ import React from 'react';
 
 const AddFriendSection = () => (
   <section className="static container">
-    <img className="rightpreview" src="images/gallery/manage-friends.png" alt="" />
+    <img className="rightpreview" src="/images/gallery/manage-friends.png" alt="" />
 
     <div className="eight columns">
       <h2>Add Friends</h2>

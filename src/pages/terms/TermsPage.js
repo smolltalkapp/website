@@ -12,7 +12,7 @@ export default class TermsPage extends React.PureComponent<Props> {
         <Helmet>
           <title>SmollTalk | Terms</title>
           <meta property="og:title" content="SmollTalk | Terms " />
-          <meta property="og:url" content="https://smolltalk.com/terms" />
+          <meta property="og:url" content="https://smolltalk.com/terms/" />
         </Helmet>
         <h2>TERMS OF USE</h2>
         <p>

@@ -16,7 +16,7 @@ const DownloadSection = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="images/download-appstore.png" alt="" />
+          <img src="/images/download-appstore.png" alt="" />
         </a>
       </li>
       <li>
@@ -25,7 +25,7 @@ const DownloadSection = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="images/download-playstore.png" alt="" />
+          <img src="/images/download-playstore.png" alt="" />
         </a>
       </li>
     </ul>

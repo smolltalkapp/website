@@ -3,7 +3,7 @@ import React from 'react';
 
 const EavesdropSection = () => (
   <section className="static container">
-    <img className="rightpreview" src="images/gallery/eavesdrop-preview.png" alt="" />
+    <img className="rightpreview" src="/images/gallery/eavesdrop-preview.png" alt="" />
 
     <div className="eight columns">
       <h2>

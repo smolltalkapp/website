@@ -3,7 +3,7 @@ import React from 'react';
 
 const ManageInterestSection = () => (
   <section className="static container">
-    <img className="leftpreview" src="images/gallery/manage-interests.png" alt="" />
+    <img className="leftpreview" src="/images/gallery/manage-interests.png" alt="" />
 
     <div className="sixteen columns offset-by-eight">
       <h2>Manage Interests</h2>

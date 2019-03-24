@@ -7,7 +7,7 @@ const AboutPage = () => (
     <Helmet>
       <title>SmollTalk | About Us</title>
       <meta property="og:title" content="SmollTalk | About Us " />
-      <meta property="og:url" content="https://smolltalk.com/about" />
+      <meta property="og:url" content="https://smolltalk.com/about/" />
     </Helmet>
     <h1>HI!</h1>
     <p>

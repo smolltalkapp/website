@@ -12,7 +12,7 @@ const OverviewSection = () => (
     </p>
     <br className="clear" />
     <div className="content-box one-third column">
-      <img src="images/icons/search.png" alt="" />
+      <img src="/images/icons/search.png" alt="" />
       <h3>Match</h3>
       <p>
         Using filters and the interests you specify, our algorithms instantly match you
@@ -20,7 +20,7 @@ const OverviewSection = () => (
       </p>
     </div>
     <div className="content-box one-third column">
-      <img src="images/icons/chat.png" alt="" />
+      <img src="/images/icons/chat.png" alt="" />
       <h3>Chat</h3>
       <p>
         Once matched, you will begin chatting. We'll let you know what #interests you
@@ -28,7 +28,7 @@ const OverviewSection = () => (
       </p>
     </div>
     <div className="content-box one-third column">
-      <img src="images/icons/friend.png" alt="" />
+      <img src="/images/icons/friend.png" alt="" />
       <h3>Add Friends</h3>
       <p>
         Having an interesting conversation with someone? Why not add them as a friend!

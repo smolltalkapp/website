@@ -7,7 +7,7 @@ const ReferralPage = () => (
     <Helmet>
       <title>SmollTalk | Referral</title>
       <meta property="og:title" content="SmollTalk | Referral " />
-      <meta property="og:url" content="https://smolltalk.com/ref" />
+      <meta property="og:url" content="https://smolltalk.com/ref/" />
     </Helmet>
     <h1>Referral Bonus</h1>
     <p>

@@ -7,7 +7,7 @@ const ContactUsPage = () => (
     <Helmet>
       <title>SmollTalk | Contact Us</title>
       <meta property="og:title" content="SmollTalk | Contact Us " />
-      <meta property="og:url" content="https://smolltalk.com/contact" />
+      <meta property="og:url" content="https://smolltalk.com/contact/" />
     </Helmet>
     <h1>Contact Us</h1>
     <p>

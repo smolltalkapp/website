@@ -12,7 +12,7 @@ export default class PrivacyPage extends React.PureComponent<Props> {
         <Helmet>
           <title>SmollTalk | Community Guidelines</title>
           <meta property="og:title" content="SmollTalk | Community Guidelines " />
-          <meta property="og:url" content="https://smolltalk.com/community" />
+          <meta property="og:url" content="https://smolltalk.com/community/" />
         </Helmet>
         <h2>Community Guidelines</h2>
         <p>

@@ -3,7 +3,7 @@ import React from 'react';
 
 const HowItWorksSection = () => (
   <section id="section3" className="static container">
-    <img className="leftpreview" src="images/gallery/howitworks.png" alt="" />
+    <img className="leftpreview" src="/images/gallery/howitworks.png" alt="" />
 
     <div className="sixteen columns offset-by-eight">
       <h2>How It Works?</h2>

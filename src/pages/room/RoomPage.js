@@ -7,7 +7,7 @@ const RoomPage = () => (
     <Helmet>
       <title>SmollTalk | Eavesdrop</title>
       <meta property="og:title" content="SmollTalk | Eavesdrop " />
-      <meta property="og:url" content="https://smolltalk.com/room" />
+      <meta property="og:url" content="https://smolltalk.com/room/" />
     </Helmet>
     <h1>Eavesdropping</h1>
     <p>

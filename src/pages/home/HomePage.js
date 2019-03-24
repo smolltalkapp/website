@@ -19,7 +19,7 @@ class HomePage extends React.PureComponent<Props> {
         <Helmet>
           <title>SmollTalk | Connect Meaningfully</title>
           <meta property="og:title" content="SmollTalk | Connect Meaningfully " />
-          <meta property="og:url" content="https://smolltalk.com" />
+          <meta property="og:url" content="https://smolltalk.com/" />
         </Helmet>
         <HeroSection />
         <VideoIntroSection />

@@ -9,35 +9,35 @@ const GallerySection = () => (
     <ul className="gallery-bxslider clearfix">
       <li>
         <div className="one-third column screenshot screenshot">
-          <img src="images/gallery/home-screen.png" alt="" />
+          <img src="/images/gallery/home-screen.png" alt="" />
         </div>
         <div className="one-third column screenshot">
-          <img src="images/gallery/match-chat.png" alt="" />
+          <img src="/images/gallery/match-chat.png" alt="" />
         </div>
         <div className="one-third column screenshot">
-          <img src="images/gallery/interest-featured.png" alt="" />
-        </div>
-      </li>
-      <li>
-        <div className="one-third column screenshot">
-          <img src="images/gallery/interest-trending.png" alt="" />
-        </div>
-        <div className="one-third column screenshot">
-          <img src="images/gallery/eavesdrop-screen.png" alt="" />
-        </div>
-        <div className="one-third column screenshot">
-          <img src="images/gallery/eaves-chat.png" alt="" />
+          <img src="/images/gallery/interest-featured.png" alt="" />
         </div>
       </li>
       <li>
         <div className="one-third column screenshot">
-          <img src="images/gallery/friend-list.png" alt="" />
+          <img src="/images/gallery/interest-trending.png" alt="" />
         </div>
         <div className="one-third column screenshot">
-          <img src="images/gallery/friend-chat.png" alt="" />
+          <img src="/images/gallery/eavesdrop-screen.png" alt="" />
         </div>
         <div className="one-third column screenshot">
-          <img src="images/gallery/profile-screen.png" alt="" />
+          <img src="/images/gallery/eaves-chat.png" alt="" />
+        </div>
+      </li>
+      <li>
+        <div className="one-third column screenshot">
+          <img src="/images/gallery/friend-list.png" alt="" />
+        </div>
+        <div className="one-third column screenshot">
+          <img src="/images/gallery/friend-chat.png" alt="" />
+        </div>
+        <div className="one-third column screenshot">
+          <img src="/images/gallery/profile-screen.png" alt="" />
         </div>
       </li>
     </ul>
