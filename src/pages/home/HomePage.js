@@ -1,5 +1,6 @@
 // @flow
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import VideoIntroSection from './VideoIntroSection';
 import HeroSection from './HeroSection';
 import OverviewSection from './OverviewSection';
@@ -15,6 +16,11 @@ class HomePage extends React.PureComponent<Props> {
   render() {
     return (
       <div>
+        <Helmet>
+          <title>SmollTalk | Connect Meaningfully</title>
+          <meta property="og:title" content="SmollTalk | Connect Meaningfully " />
+          <meta property="og:url" content="https://smolltalk.com" />
+        </Helmet>
         <HeroSection />
         <VideoIntroSection />
         <OverviewSection />

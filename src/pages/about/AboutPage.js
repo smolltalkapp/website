@@ -1,8 +1,14 @@
 // @flow
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 const AboutPage = () => (
   <div className="contentBody aboutpage mobileBody">
+    <Helmet>
+      <title>SmollTalk | About Us</title>
+      <meta property="og:title" content="SmollTalk | About Us " />
+      <meta property="og:url" content="https://smolltalk.com/about" />
+    </Helmet>
     <h1>HI!</h1>
     <p>
       Firstly, if you are using SmollTalk, we wanna thank you from the bottom of our

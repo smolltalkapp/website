@@ -2,12 +2,18 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 // @flow
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 type Props = {};
 export default class TermsPage extends React.PureComponent<Props> {
   render() {
     return (
       <div className="contentBody">
+        <Helmet>
+          <title>SmollTalk | Terms</title>
+          <meta property="og:title" content="SmollTalk | Terms " />
+          <meta property="og:url" content="https://smolltalk.com/terms" />
+        </Helmet>
         <h2>TERMS OF USE</h2>
         <p>
           Welcome to SmollTalk, operated by the developers forming The SmollTeam (the

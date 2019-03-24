@@ -2,12 +2,18 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 // @flow
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 type Props = {};
 export default class PrivacyPage extends React.PureComponent<Props> {
   render() {
     return (
       <div className="contentBody">
+        <Helmet>
+          <title>SmollTalk | Community Guidelines</title>
+          <meta property="og:title" content="SmollTalk | Community Guidelines " />
+          <meta property="og:url" content="https://smolltalk.com/community" />
+        </Helmet>
         <h2>Community Guidelines</h2>
         <p>
           Welcome to the SmollTalk community. If you’re honest, kind and respectful to

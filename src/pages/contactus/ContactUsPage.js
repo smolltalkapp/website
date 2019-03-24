@@ -1,8 +1,14 @@
 // @flow
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 const ContactUsPage = () => (
   <div className="contentBody contactpage">
+    <Helmet>
+      <title>SmollTalk | Contact Us</title>
+      <meta property="og:title" content="SmollTalk | Contact Us " />
+      <meta property="og:url" content="https://smolltalk.com/contact" />
+    </Helmet>
     <h1>Contact Us</h1>
     <p>
       If you have any issues or inquiries about our services, feel free to contact us at{' '}

@@ -1,6 +1,6 @@
 // @flow
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { hydrate, render } from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
@@ -8,7 +8,11 @@ import * as serviceWorker from './serviceWorker';
 const root: ?Element = document.getElementById('root');
 
 if (root != null) {
-  ReactDOM.render(<App />, root);
+  if (root.hasChildNodes()) {
+    hydrate(<App />, root);
+  } else {
+    render(<App />, root);
+  }
 
   // If you want your app to work offline and load faster, you can change
   // unregister() to register() below. Note this comes with some pitfalls.
